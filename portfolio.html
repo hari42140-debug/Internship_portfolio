@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hari Priya Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    scroll-behavior:smooth;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    background:rgba(0,0,0,0.3);
+    backdrop-filter:blur(10px);
+}
+
+.logo{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border:3px solid #60a5fa;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:700;
+    color:#60a5fa;
+}
+
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+section{
+    min-height: 100hv;;
+    padding:100px 10%;
+}
+h2{
+    text-align:center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom:25px;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:60px;
+    color:#f8fafc;
+}
+
+   .hero span{
+    background:linear-gradient(90deg,#60a5fa,#a855f7);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero{
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+section{
+    border-bottom:1px solid rgba(255,255,255,0.05);
+}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#00e5ff;
+    color:black;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    padding:20px;
+    margin-top:20px;
+    border-radius:15px;
+    backdrop-filter:blur(8px);
+    transition:0.4s;
+}
+.card:hover{
+    transform:translateY(-10px);
+    background:#1e293b;
+    box-shadow:0 10px 25px rgba(96,165,250,0.3);
+}
+
+.btech{
+    border-left:5px solid #38bdf8;
+}
+
+.hsc{
+    border-left:5px solid #22c55e;
+}
+
+.sslc{
+    border-left:5px solid #f97316;
+}
+.project1{
+    border-left:5px solid #38bdf8;
+}
+
+.project2{
+    border-left:5px solid #22c55e;
+}
+
+.project3{
+    border-left:5px solid #f97316;
+}
+.cert1{
+    border-left:5px solid #38bdf8;
+}
+
+.cert2{
+    border-left:5px solid #22c55e;
+}
+
+.cert3{
+    border-left:5px solid #f97316;
+}
+
+.cert4{
+    border-left:5px solid #a855f7;
+}
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:18px;
+    text-align:center;
+    border-radius:10px;
+    border:1px solid #334155;
+    transition:0.3s;
+}
+
+.skill:hover{
+    transform:translateY(-8px) scale(1.05);
+    background:#2563eb;
+    color:white;
+    box-shadow:0 10px 20px rgba(37,99,235,0.4);
+}
+
+
+.contact a{
+    color:#00e5ff;
+    text-decoration:none;
+}
+.social-links{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.social-links a{
+    text-decoration:none;
+    color:#60a5fa;
+    font-weight:bold;
+}
+
+.social-links a:hover{
+    color:white;
+}
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    background:#38bdf8;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+</style>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">HP</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificate">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="hero">
+    <div>
+        <h1>Hi, I'm <span>Hari Priya</span></h1>
+        <h2>Information Technology Student</h2>
+        <p>Aspiring Web Developer</p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>👩‍💻ABOUT ME</h2>
+
+    <div class="card">
+            <ul>
+<li>Information Technology student at Sona College of Technology.</li>
+<li>Passionate about Web Development and UI Design.</li>
+<li>Interested in Front-End Development.</li>
+<li>Strong foundation in HTML, CSS, Java, Python, C and C++.</li>
+<li>Quick learner with problem-solving abilities.</li>
+<li>Actively participating in internships and certification programs.</li>
+<li>Aiming to become a Full Stack Developer.</li>
+</ul>
+    </div>
+</section>
+
+<section id="education">
+    <h2>👩‍💻EDUCATION</h2>
+
+    <div class="card btech">
+        <h3>B.Tech Information Technology</h3>
+        <p> Sona College of Technology<br>
+            2024-2028<br>
+            CGPA: 8.75</p>
+    </div>
+    <div class="card hsc">
+        <h3>HSC</h3>
+        <p>Sri Vidhya Bharathi Matric Hr.Sec School<br>
+            2023-2024<br>
+            Mark:504/600<br>
+            Percentage:84%
+        </p>
+    </div>
+    <div class="card sslc">
+        <h3>SSLC</h3>
+        <p>Sri Vidhya Bharathi Matric Hr.Sec School<br>
+        2021-2022<br>
+        Mark:456/500<br>
+        Percentage:92%
+    </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>💻 SKILLS</h2>
+
+    <div class="skills">
+
+<div class="skill">
+<i class="fa-brands fa-html5"></i><br>
+HTML
+</div>
+
+<div class="skill">
+<i class="fa-brands fa-css3-alt"></i><br>
+CSS
+</div>
+
+<div class="skill">
+<i class="fa-brands fa-java"></i><br>
+Java
+</div>
+
+<div class="skill">
+<i class="fa-brands fa-python"></i><br>
+Python
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-c"></i><br>
+C
+</div>
+
+<div class="skill">
+<i class="fa-solid fa-code"></i><br>
+C++
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+    <h2>📂PROJECTS</h2>
+<div class="card project1">
+        <h3>Employee Management System</h3>
+        <p>Created using Java and MySQL.It is used to create track the Employee.
+            </p>
+</div>
+    <div class="card project2">
+        <h3>Simple Blog Page</h3>
+        <p>Created using HTML and CSS. Where you can see what events are occured at what time and name of the speaker.</p>
+    </div>
+
+    <div class="card project3">
+        <h3>Smart Safety Companion</h3>
+        <p>It is an Android Application for safety purpose and track the location,latitude,longitude and alert message.</p>
+    </div>
+</section>
+<section id="certificates">
+
+<h2>🏆CERTIFICATES</h2>
+
+<div class="card cert1">
+<h3>Programming in Java</h3>
+<p>NPTEL<br>
+    Score: 88% (Elite) Certificate</p>
+</div>
+
+<div class="card cert2">
+<h3>Design and Analysis</h3>
+<p>NPTEL<br>
+    Score: 64% </p>
+</div>
+<div class="card cert3">
+    <h3>Digital 101-30 Hours</h3>
+    <p> Nasscom<br>
+        Score: 77% </p>
+</div>
+<div class="card cert4">
+    <h3>GenAI Powered Data Analytics Job Simulation</h3>
+    <p>Forage</p>
+</div>
+
+</section>
+<section id="contact">
+    <h2>📞CONTACT ME</h2>
+
+    <div class="card contact">
+        <div class="social-links">
+
+<a href="mailto:hari42140@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+ Email
+</a>
+
+<a href="https://www.linkedin.com/in/haripriya-nehru-b91840327"
+target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+ LinkedIn
+</a>
+
+<a href="https://github.com/hari42140-debug"
+target="_blank">
+<i class="fa-brands fa-github"></i>
+ GitHub
+</a>
+
+</div>
+        
+        <form action="mailto:hari42140@gmail.com">
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="5" placeholder="Send me a message"></textarea>
+<center>
+<button type="submit">Send Message</button>
+</center>
+</form>
+
+        
+    </div>
+</section>
+
+</body>
+</html>
